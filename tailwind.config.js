@@ -1,0 +1,2 @@
+/** @type {import('tailwindcss').Config} */
+export default { content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'], darkMode: 'class', theme: { extend: { colors: { notebook: { bg: '#FAF7F2', text: '#222222', accent: '#5B7DB1', success: '#6A9C78', error: '#B76E6E' }, darknotebook: { bg: '#1A1A1A', text: '#EAEAEA', accent: '#7FA1D3', success: '#8CB999', error: '#C98686' } }, fontFamily: { hand: ['Caveat', 'cursive'], sans: ['Inter', 'sans-serif'] } } }, plugins: [] };
